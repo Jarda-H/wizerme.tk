@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" href="/favicon.ico" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,width=device-width">
+  <title>Wizer.me lol</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./src/style.scss">
+  <script src="./src/main.js" type="module"></script>
+</head>
+
+<body>
+  <div class="loading">
+    <p>
+      <img src="./src/assets/loading.gif" alt="loading" />
+    </p>
+  </div>
+  <div class="hax" style="display: none;">
+    <div class="container">
+      <div class="form-container">
+        <div class="error"></div>
+        <div class="form">
+          <input type="input" class="id-input" placeholder="ID z URL" name="i" id='ID' autocomplete="off" />
+          <label for="ID" class="id-label">URL <b class="url-code">or</b> ID</label>
+          <button type="submit" id="send"><i class="fa-solid fa-paper-plane"></i></button>
+        </div>
+      </div>
+      <div class="history">
+        <h1>Historie:</h1>
+        <div class="history-get">
+          <p class="nothing">Zatím nic</p>
+        </div>
+      </div>
+      <div class="footer">
+        <p>Odpovědi na pracovní listy ze stránky <a href="https://app.wizer.me/">https://app.wizer.me/</a></p>
+      </div>
+    </div>
+    <span class="dark-mode-toggle">
+      <i class="fa-solid fa-moon dark" style="display: none;"></i>
+      <i class="fa-solid fa-sun white" style="display: none;"></i>
+    </span>
+  </div>
+</body>
+
+</html>
